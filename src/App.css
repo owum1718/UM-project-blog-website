@@ -46,7 +46,12 @@ button
   background-color: green;
   color: white;
   cursor: pointer;
-  box-shadow: 0rem 0rem 1.5rem green;
+}
+
+button:hover
+{
+    box-shadow: 0.5rem -0.1rem 2rem 0.3rem green;
+
 }
 @media screen and (max-width:950px) 
 {
@@ -81,5 +86,10 @@ button
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+button
+{
+  box-shadow: none;
 }
 }

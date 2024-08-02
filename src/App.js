@@ -12,6 +12,7 @@ function App() {
         <GkNavBar name=" Recipes" />
         <GkNavBar name="About" />
       </div>
+      <div></div>
     </div>
   );
 }
