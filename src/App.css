@@ -32,3 +32,32 @@ body
   font-size: 5rem;
   /* border: 1px solid red; */
 }
+
+@media screen and (max-width:950px) 
+{
+  .gkHead-flex
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#gklogo
+{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  /* border: 1px solid blue; */
+}
+
+#gkname
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-size: 2rem;
+  /* border: 1px solid red; */
+}
+}
