@@ -9,7 +9,8 @@ function GKHead() {
         alt="gklogo"
         title="gklogo"
       />
-      <h1 id="gkname">Granny's Kitchen</h1>;
+      <h1 id="gkname">Granny's Kitchen</h1>
+      <h6 id="gkTagLine">Healthy Inside-Fitness Outside</h6>
     </div>
   );
 }
