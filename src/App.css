@@ -6,3 +6,29 @@ body
 {
   background-color: rgb(208, 246, 208);
 }
+
+.gkHead-flex
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#gklogo
+{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  /* border: 1px solid blue; */
+}
+
+#gkname
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-size: 5rem;
+  /* border: 1px solid red; */
+}
