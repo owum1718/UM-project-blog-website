@@ -33,6 +33,20 @@ body
   /* border: 1px solid red; */
 }
 
+.gkNavBar
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+button
+{
+  width: 10rem;
+  font-size: larger;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
 @media screen and (max-width:950px) 
 {
   .gkHead-flex
@@ -59,5 +73,12 @@ body
   font-style: italic;
   font-size: 2rem;
   /* border: 1px solid red; */
+}
+
+.gkNavBar
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 }

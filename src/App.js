@@ -1,10 +1,17 @@
 import "./App.css";
-import GkHead from "./components/GKHead";
+import GKHead from "./components/GKHead";
+import GkNavBar from "./components/GkNavBar";
 
 function App() {
   return (
     <div className="App">
-      <GkHead />
+      <GKHead />
+      <div className="gkNavBar">
+        <GkNavBar name="Home" />
+        <GkNavBar name="Posts" />
+        <GkNavBar name=" Recipes" />
+        <GkNavBar name="About" />
+      </div>
     </div>
   );
 }

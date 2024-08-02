@@ -1,6 +1,6 @@
 import React from "react";
 
-function GkHead() {
+function GKHead() {
   return (
     <div className="gkHead-flex">
       <img
@@ -9,9 +9,9 @@ function GkHead() {
         alt="gklogo"
         title="gklogo"
       />
-      <h1 id="gkname">Granny's Kitchen</h1>
+      <h1 id="gkname">Granny's Kitchen</h1>;
     </div>
   );
 }
 
-export default GkHead;
+export default GKHead;
