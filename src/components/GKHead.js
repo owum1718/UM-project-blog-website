@@ -1,6 +1,6 @@
 import React from "react";
 
-function GKHead() {
+function GkHead() {
   return (
     <div className="gkHead-flex">
       <img
@@ -14,4 +14,4 @@ function GKHead() {
   );
 }
 
-export default GKHead;
+export default GkHead;

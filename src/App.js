@@ -1,10 +1,10 @@
 import "./App.css";
-import GKHead from "./components/GKHead";
+import GkHead from "./components/GKHead";
 
 function App() {
   return (
     <div className="App">
-      <GKHead />
+      <GkHead />
     </div>
   );
 }
