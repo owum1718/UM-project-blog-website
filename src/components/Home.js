@@ -8,10 +8,10 @@ function Home() {
     <div>
       <GKHead />
       <div className="gkNavBar">
-        <GkNavBar name="Home" />
-        <GkNavBar name="Posts" />
-        <GkNavBar name=" Recipes" />
-        <GkNavBar name="About" />
+        {/* <GkNavBar name="Home" component="/"/> */}
+        <GkNavBar name="Posts" component="/posts"/>
+        <GkNavBar name=" Recipes" component="/recipes"/>
+        <GkNavBar name="About" component="/about"/>
       </div>
       <div id="gkHome">
         <GkHome />

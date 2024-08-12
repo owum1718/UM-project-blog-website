@@ -1,10 +1,10 @@
 import React from 'react'
 import GkNavBar from './mainpage/GkNavBar'
 
-function Posts() {
+function Recipes() {
   return (
     <div>
-            <h1>Posts</h1>
+            <h1>Recipes</h1>
 
       <div className="gkNavBar">
         <GkNavBar name="Home" component="/"/>
@@ -16,4 +16,4 @@ function Posts() {
   )
 }
 
-export default Posts
+export default Recipes
