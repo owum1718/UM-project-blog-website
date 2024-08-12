@@ -1,21 +1,19 @@
 import "./App.css";
-import GKHead from "./components/GKHead";
-import GkHome from "./components/GkHome";
-import GkNavBar from "./components/GkNavBar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Posts from "./components/Posts";
+
 
 function App() {
   return (
     <div className="App">
-      <GKHead />
-      <div className="gkNavBar">
-        <GkNavBar name="Home" />
-        <GkNavBar name="Posts" />
-        <GkNavBar name=" Recipes" />
-        <GkNavBar name="About" />
-      </div>
-      <div id="gkHome">
-        <GkHome />
-      </div>
+      
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/posts" element={<Posts/>}></Route>
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
