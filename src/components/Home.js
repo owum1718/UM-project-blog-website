@@ -10,7 +10,7 @@ function Home() {
       <div className="gkNavBar">
         {/* <GkNavBar name="Home" component="/"/> */}
         <GkNavBar name="Posts" component="/posts"/>
-        <GkNavBar name=" Recipes" component="/recipes"/>
+        <GkNavBar name="Recipes" component="/recipes"/>
         <GkNavBar name="About" component="/about"/>
       </div>
       <div id="gkHome">
