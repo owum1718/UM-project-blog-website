@@ -98,7 +98,7 @@ button:hover
 {
   display: flex;
   flex-direction: column;
-  border: 2px inset purple;
+  /* border: 2px inset purple; */
 }
 
 .postLayout
