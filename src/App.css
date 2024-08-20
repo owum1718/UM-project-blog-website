@@ -153,6 +153,30 @@ li
   color: red;
   text-shadow: 0.5rem 0.5rem 1rem red;
 }
+
+#arrowRight
+{
+  font-size: 7rem;
+  align-self: center;
+  width: 7rem;
+  height: 7rem;
+}
+
+#arrowRight:hover
+{
+  cursor: pointer;
+  color: green;
+  text-shadow: 0rem 0rem 0.5rem rgb(3, 85, 3);
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:950px) 
 {
   .gkHead-flex

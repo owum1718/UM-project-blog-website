@@ -14,7 +14,11 @@ function Posts() {
         <GkNavBar name="About" component="/about"/>
       </div>
 
-        <PostRecipe/>
+      <PostRecipe/>
+
+      <span id="arrowRight">⃗</span>
+
+
         
     </div>
   )
