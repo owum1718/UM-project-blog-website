@@ -6,7 +6,7 @@ function GkNavBar(props) {
   let naviagte=useNavigate();
   return (
     <div>
-      <button onClick={()=>{naviagte(props.component)}}>{props.name}</button>
+      <button onClick={()=>{naviagte(props.component, {state:{name:"Anjum"}})}}>{props.name}</button>
     </div>
   );
 }
