@@ -108,9 +108,7 @@ button:hover
   justify-content: flex-start;
   align-items: self-start;
   box-shadow: 0.5rem 0.5rem 1rem rgb(5, 138, 138);
-  /* height: 50rem; */
   width: 45%;
-  /* border: 2px inset purple; */
   align-self: center;
   margin: 1rem;
   padding: 1rem;
@@ -198,5 +196,63 @@ p
   font-size: large;
   text-align: justify;
   padding: 1rem;
+}
+
+.postMainLayout
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.postLayout
+{
+  background-color: rgb(5, 138, 138);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: self-start;
+  box-shadow: 0.5rem 0.5rem 1rem rgb(5, 138, 138);
+  width: 60%;
+  align-self: center;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5rem 0 5rem 0;
+}
+
+#postHead
+{
+  margin: 0;
+  font-size: 3rem;
+}
+
+#postStar
+{
+  font-size: 1rem;
+  color: yellow;
+  margin: 0;
+}
+
+.postColor
+{
+  color: white;
+  font-style: italic;
+
+}
+
+.postFont
+{
+  font-size: 2rem;
+}
+
+li
+{
+  text-align: left;
+  font-size: 1rem;
+}
+
+#postNote
+{
+  color: red;
+  text-shadow: 0.5rem 0.5rem 1rem red;
 }
 }
