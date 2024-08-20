@@ -8,7 +8,6 @@ function Home() {
     <div>
       <GKHead />
       <div className="gkNavBar">
-        {/* <GkNavBar name="Home" component="/"/> */}
         <GkNavBar name="Posts" component="/posts"/>
         <GkNavBar name="Recipes" component="/recipes"/>
         <GkNavBar name="About" component="/about"/>
