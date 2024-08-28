@@ -9,7 +9,7 @@ function Comment() {
         <textarea name="" id="" style={{width:"90%",height:"15rem"}} placeholder='Comment'></textarea>
         <input placeholder='Author' style={{width:"90%"}}></input>
         <input placeholder='Email' style={{width:"90%"}}></input>
-        <button id="cmtBtn" type='button'>Post Comment</button>
+        <button id="cmtBtn" type='button' onClick={(obj)=>{(obj.currentTarget.value)?alert("Comments posted!!!") : alert("Please fill the comment section")}}>Post Comment</button>
         </form>
         
     </div>

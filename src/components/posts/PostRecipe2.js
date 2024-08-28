@@ -1,15 +1,15 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Comment from '../Comment';
+import PostTitle from './PostTitle';
 function PostRecipe2() {
     let navigate=useNavigate();
   return (
     <div className='postMainLayout'>
         <h1 className='postHead'>Post</h1>
     <div className='postLayout'>
-        <h1 className='postHead postColor'>Immunity Booster</h1>
-        <h6 id='postStar'> ⭐⭐⭐⭐</h6>
-        <p className='postDate'>07/08/2024</p>
+      <PostTitle title="Immunity Booster" img="./images/Immunity Booster.jpg" date="07/08/2024"/>
+      
 
         <h3 className="postFont postColor">Ingredients</h3>
         <ul className='postColor'>

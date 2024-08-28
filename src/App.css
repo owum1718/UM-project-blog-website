@@ -5,6 +5,7 @@
 body
 {
   background-color: rgb(208, 246, 208);
+  /* height: 100vh; */
 }
 
 p
@@ -81,7 +82,7 @@ button:hover
   justify-content: center;
   align-items: flex-start;
   width: 100%;
-  height: 100rem;
+  /* height: 100rem; */
   padding-top: 5rem;
 }
 
@@ -124,7 +125,7 @@ button:hover
 {
   margin: 0;
   /* color: white; */
-  font-size: 5rem;
+  font-size: 4rem;
   /* font-style: italic; */
 }
 
@@ -142,6 +143,32 @@ button:hover
 
 }
 
+.postTitle
+{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  /* border: 1px solid black; */
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.titleImg
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+img
+{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 0.5rem double yellow;
+}
 .postFont
 {
   font-size: 3rem;
@@ -194,6 +221,10 @@ li
   border-radius: 0 0 4rem 0;
 }
 
+alert
+{
+  color: green;
+}
 #cmtTag
 {
   font-style: italic;
@@ -289,10 +320,10 @@ p
   border-radius: 5rem 0 5rem 0;
 }
 
-#postHead
+.postHead
 {
   margin: 0;
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 #postStar

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Comment from '../Comment';
+import PostTitle from './PostTitle';
 
 function PostRecipe3() {
     let navigate=useNavigate();
@@ -8,9 +9,10 @@ function PostRecipe3() {
     <div className='postMainLayout'>
         <h1 className='postHead'>Post</h1>
     <div className='postLayout'>
-        <h1 className='postHead postColor'>Protein Parantha</h1>
+      <PostTitle title="Protein Parantha" img="./images/protein parantha.jpg" date="14/08/2024"/>
+        {/* <h1 className='postHead postColor'>Protein Parantha</h1>
         <h6 id='postStar'> ⭐⭐⭐⭐</h6>
-        <p className='postDate'>14/08/2024</p>
+        <p className='postDate'>14/08/2024</p> */}
 
         <h3 className="postFont postColor">Ingredients</h3>
         <ul className='postColor'>
