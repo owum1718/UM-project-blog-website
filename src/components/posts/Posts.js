@@ -1,8 +1,10 @@
 import React from 'react'
 import GkNavBar from '../mainpage/GkNavBar'
 import PostRecipe from './PostRecipe'
+import { useNavigate } from 'react-router-dom'
 
 function Posts() {
+  let navigate=useNavigate();
   return (
     <div className='postMainLayout'>
       <h1>Posts</h1>
@@ -16,7 +18,7 @@ function Posts() {
 
       <PostRecipe/>
 
-      <span id="arrowRight">⃗</span>
+      <button id="arrowRight" onClick={()=>{navigate("/post2")}}>&#10149;</button>
 
 
         

@@ -1,10 +1,12 @@
 import React from 'react'
+import Comment from '../Comment'
 
 function PostRecipe() {
   return (
     <div className='postLayout'>
-        <h1 id='postHead' className='postColor'>HB Roti</h1>
+        <h1 className='postHead postColor'>HB Roti</h1>
         <h6 id='postStar'> ⭐⭐⭐⭐</h6>
+        <p className='postDate'>01/08/2024</p>
         <h3 className="postFont postColor">Ingredients</h3>
         <ul className='postColor'>
           <li>Palak/Spinach </li>
@@ -29,6 +31,8 @@ function PostRecipe() {
             <li>Dont Leave kneaded dough for long time as salt leaves water and greens in it also starts to leave water and you cannot roll out chapatis</li>
           </ol>
         </h1>
+
+        <Comment/>
     </div>
   )
 }

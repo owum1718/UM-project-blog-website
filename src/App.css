@@ -100,6 +100,11 @@ button:hover
   flex-direction: column;
 }
 
+.postDate
+{
+  color: darkred;
+}
+
 .postLayout
 {
   background-color: rgb(5, 138, 138);
@@ -115,7 +120,7 @@ button:hover
   border-radius: 5rem 0 5rem 0;
 }
 
-#postHead
+.postHead
 {
   margin: 0;
   /* color: white; */
@@ -154,25 +159,66 @@ li
   text-shadow: 0.5rem 0.5rem 1rem red;
 }
 
+#btn
+{
+  display: flex;
+  width: 10rem;
+  height: 5rem;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
 #arrowRight
 {
-  font-size: 7rem;
+  
   align-self: center;
-  width: 7rem;
-  height: 7rem;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 1rem;
 }
 
 #arrowRight:hover
 {
   cursor: pointer;
-  color: green;
+  color: white;
   text-shadow: 0rem 0rem 0.5rem rgb(3, 85, 3);
 }
 
+.comment
+{
+  
+  width: 98%;
+  height: 35rem;
+  background-color: whitesmoke;
+  text-align: left;
+  padding-left: 1rem;
+  border-radius: 0 0 4rem 0;
+}
 
+#cmtTag
+{
+  font-style: italic;
+  font-size: smaller;
+  opacity: 0.1px;
+  text-align: left;
+}
 
+#cmtBtn
+{
+  background-color: red;
+}
 
-
+#cmtBtn:hover
+{
+  cursor: pointer;
+  box-shadow: none;
+}
+form
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25rem;
+}
 
 
 
