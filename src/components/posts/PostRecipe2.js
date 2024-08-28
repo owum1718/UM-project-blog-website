@@ -2,13 +2,15 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Comment from '../Comment';
 import PostTitle from './PostTitle';
+import GKHeader from '../mainpage/GKHeader';
 function PostRecipe2() {
     let navigate=useNavigate();
   return (
     <div className='postMainLayout'>
-        <h1 className='postHead'>Post</h1>
-    <div className='postLayout'>
-      <PostTitle title="Immunity Booster" img="./images/Immunity Booster.jpg" date="07/08/2024"/>
+      <GKHeader/>
+      
+      <div className='postLayout'>
+        <PostTitle title="Immunity Booster" img="./images/Immunity Booster.jpg" date="07/08/2024"/>
       
 
         <h3 className="postFont postColor">Ingredients</h3>

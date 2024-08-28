@@ -2,18 +2,17 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Comment from '../Comment';
 import PostTitle from './PostTitle';
+import GKHeader from '../mainpage/GKHeader';
 
 function PostRecipe3() {
     let navigate=useNavigate();
   return (
     <div className='postMainLayout'>
-        <h1 className='postHead'>Post</h1>
-    <div className='postLayout'>
-      <PostTitle title="Protein Parantha" img="./images/protein parantha.jpg" date="14/08/2024"/>
-        {/* <h1 className='postHead postColor'>Protein Parantha</h1>
-        <h6 id='postStar'> ⭐⭐⭐⭐</h6>
-        <p className='postDate'>14/08/2024</p> */}
-
+      <GKHeader/>
+      
+      <div className='postLayout'>
+        
+        <PostTitle title="Protein Parantha" img="./images/protein parantha.jpg" date="14/08/2024"/>
         <h3 className="postFont postColor">Ingredients</h3>
         <ul className='postColor'>
           <li>Moong dal - 1/4cup</li>

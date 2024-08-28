@@ -4,11 +4,9 @@ import PostTitle from './PostTitle'
 
 function PostRecipe() {
   return (
-    <div className='postLayout'>
+      <div className='postLayout'>
       <PostTitle title="HB Roti" img="./images/HB Roti.jpg" date="01/08/2024"/>
-        {/* <h1 className='postHead postColor'>HB Roti</h1>
-        <h6 id='postStar'> ⭐⭐⭐⭐</h6>
-        <p className='postDate'>01/08/2024</p> */}
+        
         <h3 className="postFont postColor">Ingredients</h3>
         <ul className='postColor'>
           <li>Palak/Spinach </li>
@@ -35,7 +33,7 @@ function PostRecipe() {
         </h1>
 
         <Comment/>
-    </div>
+        </div>
   )
 }
 
