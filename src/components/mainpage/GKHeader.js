@@ -1,12 +1,11 @@
 import React from 'react'
 import GKHead from './GKHead'
-import GKNavBar from '../GKNavBar'
-
+import GkNavBar from './GkNavBar'
 function GKHeader() {
   return (
     <div>
         <GKHead/>
-        <GKNavBar/>
+        <GkNavBar/>
     </div>
   )
 }

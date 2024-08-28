@@ -1,5 +1,6 @@
 import React from 'react'
-import GkNavBar from './mainpage/GkNavBar'
+// import GkNavBar from './mainpage/GkNavBar'
+import GKHeader from './mainpage/GKHeader'
 import { useLocation } from 'react-router-dom'
 
 function About() {
@@ -7,13 +8,9 @@ function About() {
   console.log(loc);
   return (
     <div>
-      <h1>Welcome {loc.state.name}</h1>
-      <div className="gkNavBar">
-        <GkNavBar name="Home" component="/"/>
-        <GkNavBar name="Posts" component="/posts"/>
-        <GkNavBar name=" Recipes" component="/recipes"/>
-        <GkNavBar name="About" component="/about"/>
-      </div>
+      {/* <h1>Welcome {loc.state.name}</h1> */}
+      <GKHeader/>
+      
     </div>
   )
 }

@@ -60,6 +60,19 @@ p
 {
   display: flex;
   justify-content: space-around;
+  font-size: 2rem;
+}
+
+a
+{
+  text-decoration: none;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  height: 3.5rem;
+}
+
+a:hover
+{
+  color: red;
 }
 
 button

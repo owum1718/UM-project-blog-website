@@ -1,17 +1,11 @@
 import React from 'react'
-import GkNavBar from './mainpage/GkNavBar'
-
+import GKHeader from './mainpage/GKHeader'
 function Recipes() {
   return (
     <div>
-            <h1>Recipes</h1>
 
-      <div className="gkNavBar">
-        <GkNavBar name="Home" component="/"/>
-        <GkNavBar name="Posts" component="/posts"/>
-        <GkNavBar name=" Recipes" component="/recipes"/>
-        <GkNavBar name="About" component="/about"/>
-      </div>
+      <GKHeader/>
+
     </div>
   )
 }
