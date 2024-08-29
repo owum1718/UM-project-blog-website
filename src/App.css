@@ -5,7 +5,6 @@
 body
 {
   background-color: rgb(208, 246, 208);
-  /* height: 100vh; */
 }
 
 p
@@ -23,7 +22,7 @@ p
   font-weight: 100;
   font-style: italic;
   color: green;
-  font-size: 5rem;
+  font-size: 5rem; 
 }
 
 #img-resize
@@ -67,7 +66,7 @@ a
 {
   text-decoration: none;
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-  height: 3.5rem;
+  height: 5rem;
 }
 
 a:hover
@@ -238,6 +237,7 @@ button:hover
   border-radius: 50%;
   border: 0.5rem double yellow;
 }
+
 .postFont
 {
   font-size: 3rem;
@@ -246,7 +246,7 @@ button:hover
 li
 {
   text-align: left;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 #postNote
@@ -255,6 +255,20 @@ li
   text-shadow: 0.5rem 0.5rem 1rem red;
 }
 
+
+#recipeLayout
+{
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.nav-link:hover
+{
+  text-shadow: 0.5rem 0.5rem 0.5rem black;
+}
 #btn
 {
   display: flex;

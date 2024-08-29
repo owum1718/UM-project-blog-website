@@ -8,6 +8,7 @@ function PostRecipe2() {
   return (
     <div className='postMainLayout'>
       <GKHeader/>
+
       
       <div className='postLayout'>
         <PostTitle title="Immunity Booster" img="./images/Immunity Booster.jpg" date="07/08/2024"/>
