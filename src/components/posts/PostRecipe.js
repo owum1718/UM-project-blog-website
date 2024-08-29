@@ -2,8 +2,10 @@ import React from 'react'
 import Comment from '../Comment'
 import PostTitle from './PostTitle'
 import GKHeader from '../mainpage/GKHeader'
+import { useNavigate } from 'react-router-dom'
 
 function PostRecipe() {
+  let navigate=useNavigate();
   return (
     <div className='postMainLayout'>
       <GKHeader/> 
@@ -37,6 +39,9 @@ function PostRecipe() {
 
         <Comment/>
         </div>
+
+        <button id="arrowRight" onClick={()=>{navigate("/post2")}}>&#10149;</button>
+
         </div>
   )
 }

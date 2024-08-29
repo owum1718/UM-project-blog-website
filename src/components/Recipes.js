@@ -1,7 +1,8 @@
 import React from 'react'
 import GKHeader from './mainpage/GKHeader'
-import { NavLink, Link} from 'react-router-dom'
+import { NavLink, useNavigate} from 'react-router-dom'
 function Recipes() {
+  let navigate=useNavigate();
   return (
     <div className='postMainLayout'>
       <GKHeader/>
