@@ -146,7 +146,7 @@ button:hover
   justify-content: space-around;
   align-items: center;
   width: auto;
-  height: 40rem;
+  height: 15rem;
   border: 0.3rem inset darkblue;
   border-radius: 3rem;
 }

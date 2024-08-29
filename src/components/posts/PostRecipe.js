@@ -1,9 +1,12 @@
 import React from 'react'
 import Comment from '../Comment'
 import PostTitle from './PostTitle'
+import GKHeader from '../mainpage/GKHeader'
 
 function PostRecipe() {
   return (
+    <div className='postMainLayout'>
+      <GKHeader/> 
       <div className='postLayout'>
       <PostTitle title="HB Roti" img="./images/HB Roti.jpg" date="01/08/2024"/>
         
@@ -33,6 +36,7 @@ function PostRecipe() {
         </h1>
 
         <Comment/>
+        </div>
         </div>
   )
 }
