@@ -8,6 +8,7 @@ import PostRecipe2 from "./components/posts/PostRecipe2";
 import PostRecipe3 from "./components/posts/PostRecipe3";
 import PostRecipe from "./components/posts/PostRecipe";
 import AddRecipe from "./components/recipes/AddRecipe";
+import SubmittedRecipe from "./components/recipes/SubmittedRecipe";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/post2" element={<PostRecipe2/>}></Route>
         <Route path="/post3" element={<PostRecipe3/>}></Route>
         <Route path="/add" element={<AddRecipe/>}></Route>
+        <Route path="/congrats" element={<SubmittedRecipe/>}></Route>
       </Routes>
       </BrowserRouter>
     </div>

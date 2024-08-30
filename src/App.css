@@ -5,6 +5,11 @@
 body
 {
   background-color: rgb(208, 246, 208);
+  display: flex;
+            justify-content: center;  /* Horizontally center */
+            align-items: center;      /* Vertically center */
+            height: 100vh;            /* Full viewport height */
+            margin: 0; 
 }
 
 p
@@ -281,6 +286,93 @@ li
   background-color: rgb(255, 72, 0);
   box-shadow: 1px 1px px gray;
   border-radius: 1rem;
+}
+
+form div
+{
+  margin: 1rem;
+  /* width: 100%; */
+  background-color: antiquewhite;
+}
+
+caption
+{
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: bold;
+}
+label
+{
+  display: inline-block;
+  width: 10rem;
+}
+
+input
+{
+  height: 1.5rem;
+  width: 15rem;
+}
+
+fieldset
+{
+  display: inline-block;
+  /* width: 100%; */
+  background-color: azure;
+  border-radius: 5rem 0 5rem 0;
+}
+
+legend
+{
+  font-weight: bold;
+  text-align: right;
+  font-size: 1.5rem;
+  color: brown;
+}
+
+#addIng
+{
+  display: block;
+  background-color: rgb(194, 240, 241);
+  width: auto;
+  height: 2rem;
+}
+
+#recipeImgLayout
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#recipeImg
+{
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
+
+#recipeSubmit
+{
+  background-color: brown;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  align-self: center;
+}
+
+#congrats
+{
+  font-size: 10rem;
+  color: rgb(4, 252, 4);
+}
+#addRecipeLayout
+{
+  display: inline-block;
+  width: 50vw;
+  height: 50rem;
+  background-color: gold;
+  border-radius: 5rem;
 }
 
 .nav-link:hover
