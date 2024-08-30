@@ -276,6 +276,13 @@ li
   align-items: center;
 }
 
+#addRecipe
+{
+  background-color: rgb(255, 72, 0);
+  box-shadow: 1px 1px px gray;
+  border-radius: 1rem;
+}
+
 .nav-link:hover
 {
   text-shadow: 0.5rem 0.5rem 0.5rem black;
