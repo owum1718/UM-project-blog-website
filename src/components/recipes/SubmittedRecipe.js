@@ -6,7 +6,7 @@ function SubmittedRecipe() {
     <div>
           <button id="arrowRight" style={{width:"5rem"}}onClick={()=>{navigate("/")}}>Home</button>
 
-        <h1 id='congrats'>Congratulations!!!!!</h1>
+        <h1 id='congrats'>Congratulations!!!!! Recipe uploaded successfullly</h1>
     </div>
   )
 }
