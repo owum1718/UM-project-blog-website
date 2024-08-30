@@ -2,7 +2,9 @@ import React, { useRef } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 function AddRecipe() {
-  let inref=useRef();
+  let nameRef=useRef(),mailRef=useRef(),phoneRef=useRef();
+  let recipeNameRef=useRef(),ingRef=useRef(),methodRef=useRef(),imgRef=useRef();
+  
   let navigate=useNavigate();
   return (
     <div>
@@ -16,17 +18,17 @@ function AddRecipe() {
 
             <div>
               <label htmlFor="">Name</label>
-              <input type="text" />
+              <input type="text" ref={nameRef}/>
             </div>
 
             <div>
               <label htmlFor="">E-mail</label>
-              <input type="email" />
+              <input type="email" ref={mailRef}/>
             </div>
 
             <div>
               <label htmlFor="">Phone</label>
-              <input type="tel" />
+              <input type="tel" ref={phoneRef}/>
             </div>
           </fieldset>
 
@@ -35,31 +37,36 @@ function AddRecipe() {
 
             <div>
               <label htmlFor="">Recipe Name</label>
-              <input type="text" />
+              <input type="text" ref={recipeNameRef}/>
             </div>
 
             <div>
               <label htmlFor="">Ingredients</label>
-              <input type="text" name="" id="" />
-              <span ref={inref}></span>
+              <input type="text" name="" id="" ref={ingRef}/>
+              {/* <span ref={inref}></span> */}
               <button id='addIng' onClick={()=>{}}>&#10133;</button>
             </div>
 
             <div>
               <label htmlFor="">Method</label>
-              <textarea name="" id="" style={{width:"15rem"}}></textarea>
+              <textarea name="" id="" style={{width:"15rem"}} ref={methodRef}></textarea>
             </div>
 
             <div id='recipeImgLayout'>
               <label htmlFor="">Recipe Image</label>
-              <div id='recipeImg'></div>
+              <div id='recipeImg' ref={imgRef}></div>
               <input type="file" name="" id="" />
             </div>
 
 
           </fieldset>
 
-          <button type='button' id='recipeSubmit' onClick={()=>{navigate("/congrats")}}>Submit</button>
+          <button type='button' id='recipeSubmit' onClick={()=>{
+            if(nameRef.current.value && mailRef.current.value && phoneRef.current.value &&
+               recipeNameRef.current.value && methodRef.current.value && ingRef.current.value
+            )navigate("/congrats"); 
+            else alert("Enter details")}}>Submit
+          </button>
         </form>
     </div>
     </div>

@@ -364,6 +364,7 @@ legend
 {
   font-size: 10rem;
   color: rgb(4, 252, 4);
+  background-color: black;
 }
 
 #addRecipeLayout
@@ -660,6 +661,12 @@ li
 caption
 {
   font-size: 2rem;
+}
 
+#congrats
+{
+  font-size: 4rem;
+  color: rgb(4, 252, 4);
+  background-color: black;
 }
 }
