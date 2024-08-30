@@ -10,7 +10,7 @@ function PostRecipe3() {
   return (
     <div className='postMainLayout'>
       <GKHeader/>
-      <PostNavigationBtn/>
+      <PostNavigationBtn previous="/post2" next=""/>
 
       
       <div className='postLayout'>
@@ -56,15 +56,7 @@ function PostRecipe3() {
         <Comment/>
 
     </div>
-
-
-    <div id='btn'>    
-      <button id="arrowRight" onClick={()=>{navigate("/posts")}}>&#11013;</button>
-      <button id="arrowRight" onClick={()=>{navigate("/post3")}}>&#10145;</button>
-    </div>
-
-
-     </div>
+  </div>
   )
 }
 

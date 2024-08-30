@@ -10,7 +10,7 @@ function PostImgSnapShot(props) {
             <p id='postDescFontSize'>{props.desc}</p>
         </div>
 
-        <h3 style={{fontSize:"3rem", fontStyle:"italic",fontWeight:"450"}}>{props.name}</h3>
+        <h3 id='postTitle' >{props.name}</h3>
     </div>
   )
 }

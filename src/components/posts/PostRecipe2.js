@@ -7,7 +7,7 @@ function PostRecipe2() {
   return (
     <div className='postMainLayout'>
       <GKHeader/>
-      <PostNavigationBtn/>
+      <PostNavigationBtn previous="/post1" next="/post3"/>
 
       
       <div className='postLayout'>

@@ -10,12 +10,7 @@ function PostRecipe() {
   return (
     <div className='postMainLayout'>
       <GKHeader/> 
-      <PostNavigationBtn/>
-      {/* <div className='navigatePost'>
-      <button id="arrowRight" onClick={()=>{navigate("/posts")}}>&#11013;</button>
-      <button id="arrowRight" onClick={()=>{navigate("/post3")}}>&#10145;</button>
-      </div> */}
-
+      <PostNavigationBtn previous="/" next="/post2"/>
       
       <div className='postLayout'>
       <PostTitle title="HB Roti" img="./images/HB Roti.jpg" date="01/08/2024"/>
