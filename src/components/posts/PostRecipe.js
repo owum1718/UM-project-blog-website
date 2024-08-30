@@ -2,13 +2,21 @@ import React from 'react'
 import Comment from '../Comment'
 import PostTitle from './PostTitle'
 import GKHeader from '../mainpage/GKHeader'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
+import PostNavigationBtn from './PostNavigationBtn'
 
 function PostRecipe() {
-  let navigate=useNavigate();
+  // let navigate=useNavigate();
   return (
     <div className='postMainLayout'>
       <GKHeader/> 
+      <PostNavigationBtn/>
+      {/* <div className='navigatePost'>
+      <button id="arrowRight" onClick={()=>{navigate("/posts")}}>&#11013;</button>
+      <button id="arrowRight" onClick={()=>{navigate("/post3")}}>&#10145;</button>
+      </div> */}
+
+      
       <div className='postLayout'>
       <PostTitle title="HB Roti" img="./images/HB Roti.jpg" date="01/08/2024"/>
         
@@ -40,7 +48,6 @@ function PostRecipe() {
         <Comment/>
         </div>
 
-        <button id="arrowRight" onClick={()=>{navigate("/post2")}}>&#10149;</button>
 
         </div>
   )

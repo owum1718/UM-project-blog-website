@@ -1,13 +1,13 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 import Comment from '../Comment';
 import PostTitle from './PostTitle';
 import GKHeader from '../mainpage/GKHeader';
+import PostNavigationBtn from './PostNavigationBtn';
 function PostRecipe2() {
-    let navigate=useNavigate();
   return (
     <div className='postMainLayout'>
       <GKHeader/>
+      <PostNavigationBtn/>
 
       
       <div className='postLayout'>
@@ -48,10 +48,10 @@ function PostRecipe2() {
 
     </div>
 
-    <div id='btn'>    
+    {/* <div id='btn'>    
       <button id="arrowRight" onClick={()=>{navigate("/posts")}}>&#11013;</button>
       <button id="arrowRight" onClick={()=>{navigate("/post3")}}>&#10145;</button>
-    </div>
+    </div> */}
 
 
 

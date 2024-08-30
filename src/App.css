@@ -255,6 +255,11 @@ li
   text-shadow: 0.5rem 0.5rem 1rem red;
 }
 
+.navigatePost
+{
+  display: flex;
+  justify-content: space-evenly;
+}
 
 #recipeLayout
 {
@@ -277,9 +282,14 @@ li
   justify-content: space-between;
   /* border: 1px solid black; */
 }
+
+.postNavigationSpan
+{
+  font-weight: bold;
+  font-size: large;
+}
 #arrowRight
 {
-  
   align-self: center;
   width: 3rem;
   height: 2rem;

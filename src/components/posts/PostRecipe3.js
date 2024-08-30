@@ -3,12 +3,14 @@ import { useNavigate } from 'react-router-dom'
 import Comment from '../Comment';
 import PostTitle from './PostTitle';
 import GKHeader from '../mainpage/GKHeader';
+import PostNavigationBtn from './PostNavigationBtn';
 
 function PostRecipe3() {
     let navigate=useNavigate();
   return (
     <div className='postMainLayout'>
       <GKHeader/>
+      <PostNavigationBtn/>
 
       
       <div className='postLayout'>
